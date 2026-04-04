@@ -1,4 +1,4 @@
-Overview
+## Overview
 
 This section documents the setup of an Ubuntu Linux environment on macOS using virtualization.
 The ARM64 version of Ubuntu was used to ensure compatibility with Apple Silicon systems.
