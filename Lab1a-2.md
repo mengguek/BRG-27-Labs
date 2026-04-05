@@ -105,3 +105,51 @@ Static hostname: Ubuntu-Lab1a
 Operating System: Ubuntu
 Kernel: Linux ...
 ```
+### Sorting by Time (list files)
+#### files sorted by most recent modification time
+```bash
+vboxuser@Ubuntu-Lab1a:-$ ls -alt
+
+total 144
+-rw-rw-r--  1 vboxuser vboxuser 61440 Apr  3 21:30 session.txt
+drwxr-x--- 16 vboxuser vboxuser  4096 Apr  3 21:30 [0m[01;34m.[0m
+-rw-rw-r--  1 vboxuser vboxuser     0 Apr  3 21:29 testfile3
+drwx------ 17 vboxuser vboxuser  4096 Apr  3 21:26 [01;34m.config[0m
+-rw-rw-r--  1 vboxuser vboxuser     0 Apr  3 21:25 testfile
+-rw-------  1 vboxuser vboxuser    47 Apr  3 21:23 .bash_history
+drwx------ 13 vboxuser vboxuser  4096 Apr  3 16:52 [01;34m.cache[0m
+drwx------  2 vboxuser vboxuser  4096 Apr  3 16:52 [01;34m.gnupg[0m
+drwx------  5 vboxuser vboxuser  4096 Mar 31 01:53 [01;34msnap[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mMusic[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mTemplates[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mDocuments[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mPublic[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mDownloads[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mVideos[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mPictures[0m
+drwxr-xr-x  2 vboxuser vboxuser  4096 Mar 31 01:51 [01;34mDesktop[0m
+drwx------  4 vboxuser vboxuser  4096 Mar 31 01:51 [01;34m.local[0m
+drwx------  2 vboxuser vboxuser  4096 Mar 31 01:50 [01;34m.ssh[0m
+drwxr-xr-x  3 root     root      4096 Mar 31 01:49 [01;34m..[0m
+-rw-r--r--  1 vboxuser vboxuser   220 Sep  8  2025 .bash_logout
+-rw-r--r--  1 vboxuser vboxuser   807 Sep  8  2025 .profile
+-rw-r--r--  1 vboxuser vboxuser  3771 Sep  8  2025 .bashrc
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
