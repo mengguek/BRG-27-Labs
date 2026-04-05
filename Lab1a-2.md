@@ -276,7 +276,7 @@ vboxuser@Ubuntu-Lab1a:-$ rm output_of_lsusb
 
 ### Installing software
 
-#### chrome file is in .deb format (debian packages)
+#### chrome file is in .deb format (debian packages)- VirtualBox unable to handle this portion and tried a few times restarting it and still couldn't download it.
 
 
 
