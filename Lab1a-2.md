@@ -40,3 +40,34 @@ Desktop  Documents  Downloads  Pictures  session.txt
 vboxuser@Ubuntu-Lab1a:-$ ls -la
 (total output showing hidden files, permissions, and details)
 ```
+### Creating and Editing Files
+#### File created in /home/vboxuser
+```bash
+vboxuser@Ubuntu-Lab1a:-$ touch testfile
+```
+#### Faced issue for this as there is no GUI for it
+```bash
+vboxuser@Ubuntu-Lab1a:-$ gedit testfile
+```
+#### For nano it works in both local and remote terminal environments  
+```bash
+vboxuser@Ubuntu-Lab1a:-$ nano testfile
+```
+### Viewing File Contents
+
+#### testfile content displayed fully
+```bash
+vboxuser@Ubuntu-Lab1a:-$ cat testfile
+
+```
+#### testfile content displayed with scrolling     
+```bash
+vboxuser@Ubuntu-Lab1a:-$ less testfile
+
+```
+
+
+
+
+
+
