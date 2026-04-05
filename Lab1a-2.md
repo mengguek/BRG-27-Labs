@@ -136,6 +136,9 @@ drwxr-xr-x  3 root     root      4096 Mar 31 01:49 [01;34m..[0m
 -rw-r--r--  1 vboxuser vboxuser  3771 Sep  8  2025 .bashrc
 
 ```
+### Super User
+
+
 
 
 
