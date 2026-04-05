@@ -249,24 +249,31 @@ vboxuser@Ubuntu-Lab1a:-$ less /proc/cpuinfo
 <img width="637" height="314" alt="Screenshot 2026-04-05 at 22 18 20" src="https://github.com/user-attachments/assets/3b433aa3-b6ff-4ed1-88fd-4315a1ef0966" />
 
 ### Redirecting output to a file
-<img width="570" height="103" alt="Screenshot 2026-04-05 at 22 30 58" src="https://github.com/user-attachments/assets/3a59c762-3d60-4f03-a5ae-e157c685b3b7" />
-
  ```bash
 vboxuser@Ubuntu-Lab1a:-$ lsusb > output_of_lsusb
 ```
-
 #### Try:
-
-less output_of_lsusb
-
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ less output_of_lsusb
+```
 <img width="637" height="305" alt="Screenshot 2026-04-05 at 22 31 57" src="https://github.com/user-attachments/assets/6fc79c1f-7afb-46c7-bc99-3e9510bbd762" />
 
-cat output_of_lsusb
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ cat output_of_lsusb
+```
+<img width="550" height="92" alt="Screenshot 2026-04-05 at 22 34 28" src="https://github.com/user-attachments/assets/676687ea-b185-4f66-9669-9aa939f19154" />
 
-ls -la output_of_lsusb
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ ls -la output_of_lsusb
+```
 
+<img width="572" height="37" alt="Screenshot 2026-04-05 at 22 35 41" src="https://github.com/user-attachments/assets/0b906202-3dc4-4ca5-9174-0d0ff851cf5d" />
 
-rm output_of_lsusb
+#### remove this output
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ rm output_of_lsusb
+```
+
 
 
 
