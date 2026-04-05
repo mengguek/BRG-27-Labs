@@ -274,6 +274,10 @@ vboxuser@Ubuntu-Lab1a:-$ ls -la output_of_lsusb
 vboxuser@Ubuntu-Lab1a:-$ rm output_of_lsusb
 ```
 
+### Installing software
+
+#### chrome file is in .deb format (debian packages)
+
 
 
 
