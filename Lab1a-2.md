@@ -55,19 +55,53 @@ vboxuser@Ubuntu-Lab1a:-$ nano testfile
 ```
 ### Viewing File Contents
 
-#### testfile content displayed fully
+#### testfile content displayed fully (full output)
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ cat testfile
 
 ```
-#### testfile content displayed with scrolling     
+#### testfile content displayed with scrolling (scrollable)
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ less testfile
 
 ```
+### Copying and Moving Files
+#### Copying of files
+```bash
+vboxuser@Ubuntu-Lab1a:-$ cp testfile testfile2
+```
+#### Results
+```bash
+vboxuser@Ubuntu-Lab1a:-$ ls
+Desktop Documents Downloads testfile testfile2
+```
+#### Moving(Renaming) of files
+```bash
+vboxuser@Ubuntu-Lab1a:-$ mv testfile2 testfile3
+```
+#### Results
+```bash
+vboxuser@Ubuntu-Lab1a:-$ ls
+Desktop Documents Downloads testfile testfile3
+```
 
-
-
-
-
-
+### System Information
+#### Displays detailed system information including the **kernel version, system architecture, and hostname**.
+```bash
+vboxuser@Ubuntu-Lab1a:-$ uname -a
+Linux Ubuntu-Lab1a ... (kernel version and architecture)
+```
+#### Shows information about the Linux distribution, such as Ubuntu version and release details.
+```bash
+vboxuser@Ubuntu-Lab1a:-$ lsb_release -a
+Distributor ID: Ubuntu
+Description: Ubuntu ...
+Release: ...
+```
+####  Provides system identity information including the hostname, operating system, and kernel, in a more structured format.
+```bash
+vboxuser@Ubuntu-Lab1a:-$ hostnamectl
+Static hostname: Ubuntu-Lab1a
+Operating System: Ubuntu
+Kernel: Linux ...
+```
