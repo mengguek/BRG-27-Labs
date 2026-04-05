@@ -231,6 +231,23 @@ vboxuser@Ubuntu-Lab1a:-$ ip a
 ```
 <img width="594" height="291" alt="Screenshot 2026-04-05 at 22 12 17" src="https://github.com/user-attachments/assets/3616fa51-7916-408c-b350-885c16c604af" />
 
+### Hardware
 
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ lsusb
+```
+<img width="642" height="310" alt="Screenshot 2026-04-05 at 22 19 07" src="https://github.com/user-attachments/assets/3efea8e6-ea38-4eb3-b5c4-57aa5f1154f7" />
+ 
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ lspci
+```
+  <img width="642" height="312" alt="Screenshot 2026-04-05 at 22 20 01" src="https://github.com/user-attachments/assets/59ee9157-8809-47b3-b70b-5e471df1fac7" />
+
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ less /proc/cpuinfo
+```
+<img width="637" height="314" alt="Screenshot 2026-04-05 at 22 18 20" src="https://github.com/user-attachments/assets/3b433aa3-b6ff-4ed1-88fd-4315a1ef0966" />
+
+   
  
 
