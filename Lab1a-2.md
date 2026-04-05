@@ -206,12 +206,23 @@ vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
 
 ### DNS
 
-
  ```bash
-vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
+vboxuser@Ubuntu-Lab1a:-$ nslookup google.com
 ```
 
+<img width="660" height="579" alt="Screenshot 2026-04-05 at 22 02 35" src="https://github.com/user-attachments/assets/bd47ecfb-09bc-4683-a37f-aaf336682dbe" />
+#### Installation of whois
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$  sudo apt install whois
+```
+<img width="703" height="578" alt="Screenshot 2026-04-05 at 22 04 09" src="https://github.com/user-attachments/assets/7c0bfe8b-1107-48ac-9644-d3d1cc58e083" />
 
+#### it contains an email address in the case that we have a complaint to make.
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ whois google.com
+```
+
+ <img width="652" height="487" alt="Screenshot 2026-04-05 at 22 07 58" src="https://github.com/user-attachments/assets/1a73f36f-1dc4-4d59-b83e-74822c172419" />
 
 
 
