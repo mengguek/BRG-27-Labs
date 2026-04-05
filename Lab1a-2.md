@@ -195,7 +195,15 @@ vboxuser@Ubuntu-Lab1a:-$   ping localhost
 
 <img width="673" height="343" alt="Screenshot 2026-04-05 at 21 39 55" src="https://github.com/user-attachments/assets/1b38a4c7-ae14-4618-a396-c96c55a15863" />
 
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
+```
 
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ 8.8.8.8 GoogleEpicDNS
+```
+
+### DNS
 
 
 
