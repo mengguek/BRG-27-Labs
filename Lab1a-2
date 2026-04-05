@@ -4,20 +4,7 @@ Ubuntu Familiarisation
 
 ## GUI Familiarisation ##
 
-Familiarise yourself with the Ubuntu Desktop environment. Work with the students around you, and your tutor, to do the following. 
-
-* Open Firefox to check that the Internet works - If you are an internal South St student then your tutor will explain how this works in Linux.
-* Start Libre Office Writer and type some text
-* Open the file manager and navigate up and down the directory structure
-* Install a program from the Ubuntu Software Centre / APP Centre
-
-If you place the terminal and the file browser side by side then it may help to visualise the changes that you make on the command line.
-
 ## CLI Familiarisation ## 
-
-Open a Terminal by clicking on the Ubuntu start bar and typing terminal. Hit enter. It may also be helpful to open the file browser so that you can visualize some changes to the folder as you type the commands. 
- 
-Try out the following commands, If available, chat with your peers as you go.
  
 	 ps -e
 
