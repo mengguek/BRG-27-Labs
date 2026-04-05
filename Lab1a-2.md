@@ -224,6 +224,13 @@ vboxuser@Ubuntu-Lab1a:-$ whois google.com
 
  <img width="652" height="487" alt="Screenshot 2026-04-05 at 22 07 58" src="https://github.com/user-attachments/assets/1a73f36f-1dc4-4d59-b83e-74822c172419" />
 
+### Public and Private IP addresses
+
+```bash
+vboxuser@Ubuntu-Lab1a:-$ ip a
+```
+<img width="594" height="291" alt="Screenshot 2026-04-05 at 22 12 17" src="https://github.com/user-attachments/assets/3616fa51-7916-408c-b350-885c16c604af" />
 
 
+ 
 
