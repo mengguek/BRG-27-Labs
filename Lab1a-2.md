@@ -207,7 +207,9 @@ vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
 ### DNS
 
 
-
+ ```bash
+vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
+```
 
 
 
