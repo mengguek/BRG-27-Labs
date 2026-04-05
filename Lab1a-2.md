@@ -198,12 +198,15 @@ vboxuser@Ubuntu-Lab1a:-$   ping localhost
  ```bash
 vboxuser@Ubuntu-Lab1a:-$ sudo nano /etc/hosts
 ```
+<img width="654" height="506" alt="Screenshot 2026-04-05 at 21 46 38" src="https://github.com/user-attachments/assets/d4526407-107e-4e04-9b0a-a3986695e6e0" />
 
- ```bash
-vboxuser@Ubuntu-Lab1a:-$ 8.8.8.8 GoogleEpicDNS
-```
+#### After adding  8.8.8.8 GoogleEpicDNS
+<img width="642" height="481" alt="Screenshot 2026-04-05 at 21 55 43" src="https://github.com/user-attachments/assets/dc0cfa0b-0fa3-4ce0-b2f3-04650e466240" />
+
 
 ### DNS
+
+
 
 
 
