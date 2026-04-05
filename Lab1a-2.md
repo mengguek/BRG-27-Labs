@@ -249,5 +249,8 @@ vboxuser@Ubuntu-Lab1a:-$ less /proc/cpuinfo
 <img width="637" height="314" alt="Screenshot 2026-04-05 at 22 18 20" src="https://github.com/user-attachments/assets/3b433aa3-b6ff-4ed1-88fd-4315a1ef0966" />
 
    
- 
+Find "About this Computer", which is located under settings in the GUI. 
+Is it more or less useful?- Less Useful
+Which do you prefer?
+
 
