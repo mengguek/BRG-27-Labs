@@ -65,20 +65,27 @@ vboxuser@Ubuntu-Lab1a:-$ cat testfile
 vboxuser@Ubuntu-Lab1a:-$ less testfile
 
 ```
+
 ### Copying and Moving Files
 #### Copying of files
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ cp testfile testfile2
 ```
+
 #### Results
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ ls
 Desktop Documents Downloads testfile testfile2
 ```
+
 #### Moving(Renaming) of files
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ mv testfile2 testfile3
 ```
+
 #### Results
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ ls
@@ -87,10 +94,14 @@ Desktop Documents Downloads testfile testfile3
 
 ### System Information
 #### Displays detailed system information including the **kernel version, system architecture, and hostname**.
+
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ uname -a
 Linux Ubuntu-Lab1a ... (kernel version and architecture)
 ```
+
+
 #### Shows information about the Linux distribution, such as Ubuntu version and release details.
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ lsb_release -a
@@ -98,15 +109,23 @@ Distributor ID: Ubuntu
 Description: Ubuntu ...
 Release: ...
 ```
+
+
 ####  Provides system identity information including the hostname, operating system, and kernel, in a more structured format.
+
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ hostnamectl
 Static hostname: Ubuntu-Lab1a
 Operating System: Ubuntu
 Kernel: Linux ...
 ```
+
+
 ### Sorting by Time (list files)
 #### files sorted by most recent modification time
+
+
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ ls -alt
 
@@ -135,42 +154,56 @@ drwxr-xr-x  3 root     root      4096 Mar 31 01:49 [01;34m..[0m
 -rw-r--r--  1 vboxuser vboxuser   807 Sep  8  2025 .profile
 -rw-r--r--  1 vboxuser vboxuser  3771 Sep  8  2025 .bashrc
 
+
 ```
+
+
 ### Super User
 
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ whoami
 vboxuser
 ```
+
 #### not allowed to access root directly
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ adduser newuser
 adduser: Permission denied
 ```
+
 #### sudo allows temporary root access
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ sudo whoami
 root
 ```
+
 #### managed to create the newuser account on linux
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ sudo adduser newuser
 (creates new user successfully)
 ```
+
+
 ### Network Configuration
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ ip a
 
 ```
+
+
  <img width="647" height="322" alt="Screenshot 2026-04-05 at 21 18 41" src="https://github.com/user-attachments/assets/ad6fe27a-1891-4a7d-bd4b-3f2c4b88bd35" />
+
 
 ```bash
 vboxuser@Ubuntu-Lab1a:-$  ping 134.115.148.1
 
 ```
+
+
 <img width="655" height="434" alt="Screenshot 2026-04-05 at 21 20 49" src="https://github.com/user-attachments/assets/8260c6f8-4f74-4934-b361-abc285758432" />
 
 #### The address works at home because it is part of a local network environment, and access depends on being connected to the same network as the service.
+
 
 ```bash
 vboxuser@Ubuntu-Lab1a:-$ ping 8.8.8.8
@@ -179,12 +212,15 @@ vboxuser@Ubuntu-Lab1a:-$ ping 8.8.8.8
 
 
 <img width="662" height="488" alt="Screenshot 2026-04-05 at 21 23 17" src="https://github.com/user-attachments/assets/590a6f6a-fceb-4a10-a49f-1dfad521061c" />
+
+
 ### Hosts
 
 ```bash
 vboxuser@Ubuntu-Lab1a:-$  less /etc/hosts
 
 ```
+
 
 <img width="657" height="492" alt="Screenshot 2026-04-05 at 21 38 45" src="https://github.com/user-attachments/assets/c71206f9-d88c-4e39-87a6-e0532861ff79" />
 
