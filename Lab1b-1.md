@@ -52,6 +52,32 @@ vboxuser@Ubuntu-Lab1a:-$ nano /var/www/html/index.html
 
 <img width="642" height="308" alt="Screenshot 2026-04-06 at 22 24 37" src="https://github.com/user-attachments/assets/a3057a94-ec6d-4fec-8277-a0c3dc37065f" />
 
+### UFW Fire wall of ubuntu
+
+```bash
+vboxuser@Ubuntu-Lab1a:-$ sudo ufw status verbose
+```
+
+#### turning on of firewall
+
+```bash
+vboxuser@Ubuntu-Lab1a:-$ sudo ufw enable
+```
+
+#### checking of firewall config ?
+
+```bash
+vboxuser@Ubuntu-Lab1a:-$ sudo ufw status verbose
+```
+
+<img width="270" height="87" alt="Screenshot 2026-04-06 at 22 39 37" src="https://github.com/user-attachments/assets/a6bd7d06-9cdb-4792-9a92-d47b97212b79" />
+
+### Dealing with compressed archives
+
+<img width="631" height="217" alt="Screenshot 2026-04-06 at 22 49 09" src="https://github.com/user-attachments/assets/13c70bae-f80e-46fb-a26c-64e1e9042a49" />
+
+<img width="311" height="270" alt="Screenshot 2026-04-06 at 22 49 22" src="https://github.com/user-attachments/assets/eeda5485-f346-4d2c-a868-017c90496e8d" />
+
 
 
 
